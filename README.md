@@ -18,7 +18,7 @@ git clone [repository-url]
 cd muatpartsplus-seller
 ```
 
-2. Initialize the packages submodule:
+2. Initialize the packages submodule (automatically checks out packages-root branch):
 
 ```bash
 npm run packages:sync
@@ -47,14 +47,14 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## Working with Packages Submodule
 
-The `packages/` directory is a git submodule containing shared components and utilities.
+The `packages/` directory is a git submodule containing shared components and utilities. It's configured to track the `packages-root` branch.
 
 ### Common Commands
 
 #### First time setup or after cloning:
 
 ```bash
-npm run packages:sync
+npm run packages:sync  # Syncs and checks out packages-root branch
 ```
 
 #### Update packages to latest version:
