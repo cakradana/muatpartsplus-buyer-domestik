@@ -23,7 +23,7 @@
     "storybook": "npm run storybook -w @muatmuat/ui",
     "build-storybook": "npm run build-storybook -w @muatmuat/ui",
     "packages:update": "git submodule update --remote --merge",
-    "packages:sync": "git submodule sync && git submodule update --init --recursive --remote"
+    "packages:sync": "git submodule sync && git submodule update --init --recursive && cd packages && git checkout packages-root && git pull origin packages-root"
   },
   "dependencies": {
     "@million/lint": "^0.0.39",
