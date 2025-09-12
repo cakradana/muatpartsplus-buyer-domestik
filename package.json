@@ -1,0 +1,65 @@
+{
+  "name": "muatpartsplus-seller",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "npm run test --workspaces --if-present",
+    "format": "prettier --write .",
+    "clean": "rimraf packages/*/node_modules .next && rimraf node_modules",
+    "prepare": "husky",
+    "zip": "node ./scripts/zip.js",
+    "t": "node scripts/translate.js",
+    "translate:eka": "node scripts/translate-eka.js",
+    "scan:untranslated": "node scripts/scan-untranslated.js",
+    "scan:quick": "node scripts/quick-scan.js",
+    "scan:view": "node scripts/view-scan-results.js",
+    "storybook": "npm run storybook -w @muatmuat/ui",
+    "build-storybook": "npm run build-storybook -w @muatmuat/ui",
+    "packages:update": "git submodule update --remote --merge",
+    "packages:sync": "git submodule sync && git submodule update --init --recursive"
+  },
+  "dependencies": {
+    "@million/lint": "^0.0.39",
+    "@muatmuat/hooks": "*",
+    "@muatmuat/lib": "*",
+    "@muatmuat/ui": "*",
+    "@react-google-maps/api": "^2.20.6",
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-inlinesvg": "^4.2.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@ast-grep/cli": "^0.38.7",
+    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9.32.0",
+    "@muatmuat/eslint-config": "*",
+    "@muatmuat/tailwind-config": "*",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "archiver": "^7.0.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.27.0",
+    "eslint-config-next": "^15.5.2",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@11.5.2"
+}

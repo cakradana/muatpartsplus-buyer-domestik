@@ -1,0 +1,15 @@
+Class	Form	Value ID	Value EN	Label	Value CN
+laporanRingkasanPengiriman	deliverySummaryReport	Dashboard Analytics	Dashboard Analytics	breadcrumbDashboardAnalytics	仪表盘分析
+laporanRingkasanPengiriman	deliverySummaryReport	Laporan Ringkasan Pengiriman	Delivery Summary Report	titleDeliverySummaryReport	发货总结报告
+laporanRingkasanPengiriman	deliverySummaryReport	Dalam Periode 	In the Period 	labelInThePeriod	在此期间 
+laporanRingkasanPengiriman	deliverySummaryReport	Jenis Truk	Truck Type	filterLabelTruckType	卡车类型
+laporanRingkasanPengiriman	deliverySummaryReport	Jenis Carrier	Carrier Type	filterLabelCarrierType	承运人类型
+laporanRingkasanPengiriman	deliverySummaryReport	No. Polisi	License Plate	tableHeaderLicensePlate	警察号码
+laporanRingkasanPengiriman	deliverySummaryReport	Armada	Fleet	tableHeaderFleet	舰队
+laporanRingkasanPengiriman	deliverySummaryReport	Carrier: 	Carrier: 	tableLabelCarrier	承运人： 
+laporanRingkasanPengiriman	deliverySummaryReport	Jarak Tempuh	Distance Traveled	tableHeaderTotalDistance	行驶距离
+laporanRingkasanPengiriman	deliverySummaryReport	Total Tonase	Total Tonnage	tableHeaderTotalTonnage	总吨位
+laporanRingkasanPengiriman	deliverySummaryReport	Detail	Detail	buttonDetail	细节
+laporanRingkasanPengiriman	deliverySummaryReport	Unduh	Download	buttonDownload	下载
+laporanRingkasanPengiriman	deliverySummaryReport	Cari No. Pesanan / No. Polisi	Search Order No. / License Plate	placeholderSearch	搜索订单号/警察号码
+laporanRingkasanPengiriman	deliverySummaryReport	Pengiriman	Deliveries
